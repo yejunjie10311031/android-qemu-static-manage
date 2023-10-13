@@ -1,6 +1,7 @@
 #include <iostream>
 #include "show-qemu-version.h"
 #include "download-qemu-version.h"
+#include "remove-qemu.h"
 using namespace std;
 class qm
 {
@@ -29,6 +30,11 @@ void qemumanager()
     	        {
     	            downloadqemu downloadqemu1;
     	            downloadqemu1.download();
+    	        }
+    	        else if (strcmp(input2,"c") == 0)
+    	        {
+    	            removeqemu removeqemu1;
+    	            removeqemu1.removeq();
     	        }
     	        else
                 {
