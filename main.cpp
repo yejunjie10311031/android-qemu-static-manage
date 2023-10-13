@@ -24,7 +24,13 @@ int main()
     	        }
     	        else if (strcmp(input1,"b") == 0)
     	        {
-    	            cout << "b";
+    	            cout << "该功能尚未制作完成" << endl;
+    	            break;
+    	        }
+    	        else if (strcmp(input1,"c") == 0)
+    	        {
+    	            cout << "该功能尚未制作完成" << endl;
+    	            break;
     	        }
     	        else
                 {
